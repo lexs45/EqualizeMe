@@ -4422,6 +4422,15 @@ fieldset:disabled .btn {
     border-top-right-radius: var(--bs-nav-tabs-border-radius)
 }
 
+
+.nav-help a{
+    opacity: 0.8;
+}
+.nav-help a:hover{
+    transition: 0.5;
+    opacity: 1;
+}
+
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
     isolation: isolate;

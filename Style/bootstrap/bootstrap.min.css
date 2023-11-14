@@ -4424,10 +4424,10 @@ fieldset:disabled .btn {
 
 
 .nav-help a{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .nav-help a:hover{
-    transition: 0.5;
+    transition: 0.9s;
     opacity: 1;
 }
 

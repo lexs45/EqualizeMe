@@ -59,6 +59,15 @@
     height: fit-content;
     /* border-radius: 6px; */
 }
+.slide-content2{
+    /* border: solid red; */
+    /* margin: 0 40px; */
+    /* padding: 45px 20px; */
+    /* overflow: hidden; */
+    width: 80%;
+    height: fit-content;
+    /* border-radius: 6px; */
+}
 .card{
     /* width: 320px; */
     /* border-radius: 25px; */
@@ -186,11 +195,21 @@
 }
 
 .swiper-pagination-bullet{
-    background-color: rgb(101, 202, 209);
+    background-color: #CDF0F3;
     opacity: 1;
 }
 .swiper-pagination-bullet-active{
+    background-color: rgb(101, 202, 209);
+    border: 0.1px solid rgba(128, 128, 128, 0.333);
+    opacity: 1;
+}
+.swiper-pagination2-bullet{
+    background-color: rgb(101, 202, 209);
+    opacity: 1;
+}
+.swiper-pagination2-bullet-active{
     background-color: #CDF0F3;
+    border: 0.1px solid rgba(128, 128, 128, 0.333);
     opacity: 1;
 }
 

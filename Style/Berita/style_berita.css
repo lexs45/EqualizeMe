@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container-content {
+    width: 100%;
+    padding: 2%;
+    /* border: solid black; */
+    background-color: #CDF0F3;
+    border-radius: 30px;
+    margin-bottom: 5%;
+
+}
+
+.texth3-content{
+    /* border: solid brown; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.underlined-content{
+    /* border: solid black; */
+    margin: 0.5% 0 2% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.garis-bawah{
+    /* border-top: 2px solid rgba(128, 128, 128, 0.436); */
+    width: 40%;
+    border-top: 2px solid #fff;
+}
+
+
+.lapis-content {
+    width: 100%;
+    /* border: solid red; */
+}
+.link-content{
+    border: solid red;
+    /* width: 100%; */
+}
+
+.container-content .luar-content {
+    /* border: solid black; */
+    /* background-color: rgba(128, 128, 128, 0.404); */
+    width: 100%;
+    margin-bottom: 0.5%;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+}
+
+.content1 {
+    /* border: solid blue; */
+    width: 32%;
+    margin-left: 2%;
+    display: flex;
+}
+
+.content1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content1 a img {
+    width: 80%;
+}
+.content1 a:hover img {
+    color: grey;
+}
+
+.pemisah {
+    margin-left: 1%;
+    margin-right: 1%;
+    /* border: solid red; */
+    width: 5%;
+}
+
+.content2 {
+    /* margin-left: 2%; */
+    /* margin-right: 2%; */
+    /* padding: 0.1%; */
+    /* border: solid red; */
+    width: 46%;
+}
+
+.content2 .inner_content2 {
+    display: flex;
+    padding: 1%;
+    /* border: solid yellow; */
+    justify-content: center;
+
+}
+
+.content2 .inner_content2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content2 .inner_content2 a:hover h3 {
+    /* color: rgb(101, 202, 209); */
+    color: #fff;
+    transition: 0.2s;
+}
+
+.outter-isi-content2 {
+    /* border: solid darkmagenta; */
+    display: flex;
+    width: 100%;
+}
+
+.isi-content2 {
+    /* border: solid black; */
+    padding: 1%;
+    font-size: 13px;
+}
+
+.isi-content2 span{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.isi-content2 p {
+    text-align: justify;
+}
+
+.container-statistik{
+    /* border: solid red; */
+    border-radius: 30px;
+    background-color: #CDF0F3;
+    padding: 2%;
+    margin-bottom: 1%;
+    width: 100%;
+    display: flexbox;
+    align-items: center;
+}
+.banner-h3{
+    /* border: solid green; */
+    /* margin-bottom: 1%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-h3 h3{
+
+    /* border: solid blue; */
+    font-weight: bold;
+}
+.banner-img-statistik{
+    /* border: solid brown; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner-img-statistik img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+/* .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: opacity 0.4s ease-in-out;
+    background-color: black;
+}
+.overlay-content{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.content1 a:hover .overlay{
+    opacity: 0.8;
+} */
+.overlay{
+    position: absolute;
+    background-color: black;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    opacity: 0;
+    transform: opacity 0.4s ease-in-out;
+}
+.overlay-content{
+    color: white;
+    text-align: center;
+}
+.content1 a:hover .overlay{
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+@media (max-width: 420px){
+    .container-statistik{
+        border: solid black;
+        margin-bottom: 2%;
+        /* display: flexbox; */
+        /* align-items: center; */
+    }
+    
+    .container-statistik .banner-h3 h3{
+        /* border: solid black; */
+        font-size: 14px;
+    }
+    .banner-img-statistik img{
+        /* border: solid red; */
+        width: 70%;
+    }
+    .luar-content{
+        border: solid black;
+        display: block;
+        align-items: start;
+        justify-content: end;
+        /* grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%; */
+    }
+    .content1{
+        display: flex;
+    }
+    .pemisah{
+        display: none;
+    }
+
+    .content2{
+        display: inline-block;
+        border: solid black;
+    }
+
+}

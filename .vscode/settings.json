@@ -8,5 +8,6 @@
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
     "editor.fontSize": 12,
     "files.autoSave": "afterDelay",
-    "livePreview.defaultPreviewPath": "/halaman/Regristasi.html"
+    "livePreview.defaultPreviewPath": "/halaman/Regristasi.html",
+    "liveServer.settings.port": 5501
 }

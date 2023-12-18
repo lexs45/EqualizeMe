@@ -4,129 +4,6 @@
     box-sizing: 0;
 }
 
-.container-content {
-    width: 100%;
-    padding: 2%;
-    /* border: solid black; */
-    background-color: #CDF0F3;
-    border-radius: 30px;
-    margin-bottom: 5%;
-
-}
-
-.texth3-content{
-    /* border: solid brown; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.underlined-content{
-    /* border: solid black; */
-    margin: 0.5% 0 2% 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.garis-bawah{
-    /* border-top: 2px solid rgba(128, 128, 128, 0.436); */
-    width: 40%;
-    border-top: 2px solid #fff;
-}
-
-
-.lapis-content {
-    width: 100%;
-    /* border: solid red; */
-}
-.link-content{
-    border: solid red;
-    /* width: 100%; */
-}
-
-.container-content .luar-content {
-    /* border: solid black; */
-    /* background-color: rgba(128, 128, 128, 0.404); */
-    width: 100%;
-    margin-bottom: 0.5%;
-    /* height: 20vh; */
-    display: flex;
-    justify-content: center;
-}
-
-.content1 {
-    /* border: solid blue; */
-    width: 32%;
-    margin-left: 2%;
-    display: flex;
-}
-
-.content1 a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content1 a img {
-    width: 80%;
-}
-.content1 a:hover img {
-    color: grey;
-}
-
-.pemisah {
-    margin-left: 1%;
-    margin-right: 1%;
-    /* border: solid red; */
-    width: 5%;
-}
-
-.content2 {
-    /* margin-left: 2%; */
-    /* margin-right: 2%; */
-    /* padding: 0.1%; */
-    /* border: solid red; */
-    width: 46%;
-}
-
-.content2 .inner_content2 {
-    display: flex;
-    padding: 1%;
-    /* border: solid yellow; */
-    justify-content: center;
-
-}
-
-.content2 .inner_content2 a {
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.content2 .inner_content2 a:hover h3 {
-    /* color: rgb(101, 202, 209); */
-    color: #fff;
-    transition: 0.2s;
-}
-
-.outter-isi-content2 {
-    /* border: solid darkmagenta; */
-    display: flex;
-    width: 100%;
-}
-
-.isi-content2 {
-    /* border: solid black; */
-    padding: 1%;
-    font-size: 13px;
-}
-
-.isi-content2 span{
-    font-style: italic;
-    color: rgba(0, 0, 0, 0.4);
-}
-
-.isi-content2 p {
-    text-align: justify;
-}
 
 .container-statistik{
     /* border: solid red; */
@@ -183,26 +60,83 @@
 .content1 a:hover .overlay{
     opacity: 0.8;
 } */
-.overlay{
-    position: absolute;
-    background-color: black;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    opacity: 0;
-    transform: opacity 0.4s ease-in-out;
+
+.h3-berita{
+    /* border: solid black; */
+    display: flex;
+    padding: 3%;
+    justify-content: start;
+    border-bottom: 1px solid grey;
 }
-.overlay-content{
-    color: white;
-    text-align: center;
+.h3-berita h3{
+    /* font-weight: bold; */
+    /* text-align: start; */
+    color: black;
 }
-.content1 a:hover .overlay{
-    transition: 0.3s;
-    opacity: 0.8;
+
+.container-content-berita{
+    /* border: solid yellow; */
+
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 30%;
+}
+
+.content-berita{
+    /* border: solid blue; */
+    /* border-top: 0.5px solid black; */
+    border-bottom: 0.5px solid grey;
+    max-height: 23vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3%;
+
+}
+
+.content-berita a{
+    
+    text-decoration: none;
+}
+.content-berita a:hover {
+    padding: 0;
+    margin: 0;
+    border-radius: 4%;
+    background-color: rgba(128, 128, 128, 0.137);
+}
+.content-h6-berita{
+    width: 48%;
+    /* border: solid green; */
+    padding: 2%;
+    color: black;
+    text-align: justify;
+    max-height: 19vh;
+    overflow: auto;
+}
+.content-h6-berita h6{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.beritanya{
+    /* border: solid black; */
+    width: 100%;
+    /* height: 80vh; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.beritanya img{
+    /* border: solid red; */
+    width: 50%;
+    height: 20vh;
+    border-radius: 5%;
 }
 
 @media (max-width: 420px){
     .container-statistik{
-        border: solid black;
+        /* border: solid black; */
         margin-bottom: 2%;
         /* display: flexbox; */
         /* align-items: center; */
@@ -216,24 +150,6 @@
         /* border: solid red; */
         width: 70%;
     }
-    .luar-content{
-        border: solid black;
-        display: block;
-        align-items: start;
-        justify-content: end;
-        /* grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%; */
-    }
-    .content1{
-        display: flex;
-    }
-    .pemisah{
-        display: none;
-    }
 
-    .content2{
-        display: inline-block;
-        border: solid black;
-    }
 
 }

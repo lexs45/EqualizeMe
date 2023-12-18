@@ -3,9 +3,14 @@
     padding: 0;
     
 }
+.container-wrapper{
+    /* background-image: linear-gradient(180deg,#03848F 95%,#fff 5%); */
+	background-color: #03848F;
 
+}
 
 .container-wrapper .input{
+	
 	border: 0;
 	outline: none;
 	color: #000;

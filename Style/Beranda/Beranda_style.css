@@ -74,13 +74,15 @@ body{
     /* border: solid red; */
     align-items: center;
     width: 100%;
-    /* justify-content: end; */
+
+    justify-content: end;
     /* justify-content: center; */
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 .nav-content-inner-right li{
     /* border: solid blue; */
-    width: 100%;
+    /* width: 100%; */
+    margin: 8%;
     display: flex;
     justify-content: center;
 }
@@ -144,3 +146,37 @@ body{
     font-weight: bold;
 }
 
+
+/* .scrollToTop{
+    position: fixed;
+    top: 80%;
+    z-index: 9999999;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.scrollToTop:hover{
+    background-color: #f7f7f7;
+    color: #000;
+} */
+
+#topBtn{
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    background-color: #03848F;
+    color: white;
+    border: none;
+    border-radius: 8%;
+    cursor: pointer;
+    display: none;
+    z-index: 9999999;
+}

@@ -11,7 +11,7 @@ $(document).ready(function(){
         $('html, body').animate({
             scrollTop: 0
         }, {
-            duration: 50,
+            duration: 30,
             easing: 'easeInQuad'
         });
     });

@@ -237,7 +237,8 @@
 
 .pagination ul li.active{
     color: white;
-    background-color: #03848F;
+    background-color: RED;
+    /* background-color: #03848F; */
     border-radius: 50px;
 }
 .pagination ul li.numb:hover{

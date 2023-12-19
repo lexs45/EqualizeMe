@@ -224,7 +224,10 @@
 
 
 .pagination ul li.btn{
-    border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red; */
     padding: 0 10px;
 }
 
@@ -239,8 +242,8 @@
 
 .pagination ul li.active{
     color: white;
-    background-color: RED;
-    /* background-color: #03848F; */
+    /* background-color: RED; */
+    background-color: #03848F;
     border-radius: 50px;
 }
 .pagination ul li.numb:hover{

@@ -189,7 +189,7 @@
     /* border: solid blue; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     width: 85%;
     height: 10vh;
     /* max-width: 100%; */

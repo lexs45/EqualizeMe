@@ -7,6 +7,7 @@
 
 .tempat-carousell{
     width: 100%;
+    /* border: solid black; */
     /* display: flex; */
     /* flex-direction: column; */
     
@@ -32,7 +33,7 @@
 }
 
 .content-carousell{
-    min-height: 85vh;
+    min-height: 75vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -196,11 +197,12 @@
 
 .swiper-pagination-bullet{
     background-color: #CDF0F3;
+    border: 0.5px solid rgba(0, 0, 0, 0.409);
     opacity: 1;
 }
 .swiper-pagination-bullet-active{
     background-color: rgb(101, 202, 209);
-    border: 0.1px solid rgba(128, 128, 128, 0.333);
+    border: 0.5px solid rgba(0, 0, 0, 0.285);
     opacity: 1;
 }
 .swiper-pagination2-bullet{

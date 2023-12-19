@@ -17,7 +17,8 @@
 }
 
 .search_wrap{
-	width: 30%;
+	width: 70%;
+	/* border: solid black; */
 	height: 5vh;
 	margin: 38px auto;
 }
@@ -34,8 +35,9 @@
 	left: 0; */
 	width: 100%;
 	height: 100%;
-	padding: 10px 50px;
+	padding: 10px 35px;
 	border-radius: 3px;
+	/* border: solid black; */
 	font-size: 18px;
 }
 
@@ -80,12 +82,12 @@
 
 @media (max-width:420px){
 
-	.search_wrap{
-		width: 60%;
+	/* .search_wrap{
+		width: 70%;
 		height: 4vh;
 		margin: 38px auto;
 	}
-	
+	 */
 	.search_wrap .search_box{
 		position: relative;
 		width: 100%;

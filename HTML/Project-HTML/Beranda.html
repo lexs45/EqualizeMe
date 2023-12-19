@@ -55,7 +55,7 @@
                 <li>
                     <div class="icon-profile">
                         <a href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
                                 class="bi bi-person-circle" viewBox="0 0 16 16">
                                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
                                 <path fill-rule="evenodd"
@@ -107,7 +107,7 @@
             <div class="logo-content-alarm dflex">
                 <div class="alarm-button dflex">
                     <button id="btn" onclick="toggleAudio(); ">
-                        <span>Click Here!</span>
+                        <span>Click Me!</span>
                     </button>
                     <script type="text/javascript" src="../../JS/sound.js">
 
@@ -123,7 +123,7 @@
     </div>
 
     <!-- carousell Berita -->
-    <div class="tempat-carousell">
+    <div class="tempat-carousell" style="margin-top: 3vh;">
         <div class="content-carousell">
             <div class="h3-carousell">
                 <h3>Berita</h3>
@@ -326,10 +326,10 @@
 
 
 
-    
+
 
     <!-- carousell Edukasi -->
-    <div class="tempat-carousell">
+    <div class="tempat-carousell" style="margin-bottom: 8vh;">
         <div class="content-carousell">
             <div class="h3-carousell">
                 <h3>Edukasi</h3>
@@ -593,7 +593,18 @@
         <h2>{{Judul Content}}</h2>
         <img src="../../Image/412503.jpg" alt="">
         <div class="content-text-popup">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis itaque asperiores animi unde earum voluptates incidunt illum dolor error, enim beatae atque voluptatem repellendus ad doloribus ex tempora, voluptas quos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente aut minus distinctio, ducimus asperiores, optio voluptatibus delectus ipsum omnis autem mollitia numquam! Repudiandae voluptates perspiciatis, cumque animi non quod dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, quidem rem. Recusandae ab corrupti illo qui incidunt. Perferendis, iste voluptate. Incidunt at, alias id dolorum inventore, velit cumque exercitationem quaerat eius porro perspiciatis quas delectus. Eos et officia, sunt fugit quasi, magni ut quae commodi tenetur dolor maxime sint illo totam quibusdam non vero, quis facere doloremque sed! Facere beatae enim quam dolorum modi perferendis quia optio! Mollitia placeat error adipisci deleniti consectetur quidem sint, neque totam aut alias eligendi minus reiciendis quibusdam sed soluta ducimus obcaecati sequi? Voluptas reiciendis eum deleniti magnam ipsam eligendi maiores quaerat repudiandae ex quidem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis itaque asperiores animi unde earum
+                voluptates incidunt illum dolor error, enim beatae atque voluptatem repellendus ad doloribus ex tempora,
+                voluptas quos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente aut minus distinctio,
+                ducimus asperiores, optio voluptatibus delectus ipsum omnis autem mollitia numquam! Repudiandae
+                voluptates perspiciatis, cumque animi non quod dolor. Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Iure, quidem rem. Recusandae ab corrupti illo qui incidunt. Perferendis, iste
+                voluptate. Incidunt at, alias id dolorum inventore, velit cumque exercitationem quaerat eius porro
+                perspiciatis quas delectus. Eos et officia, sunt fugit quasi, magni ut quae commodi tenetur dolor maxime
+                sint illo totam quibusdam non vero, quis facere doloremque sed! Facere beatae enim quam dolorum modi
+                perferendis quia optio! Mollitia placeat error adipisci deleniti consectetur quidem sint, neque totam
+                aut alias eligendi minus reiciendis quibusdam sed soluta ducimus obcaecati sequi? Voluptas reiciendis
+                eum deleniti magnam ipsam eligendi maiores quaerat repudiandae ex quidem.</p>
         </div>
         <button class="button-selengkapnya" onclick="toggle_popup()">Kembali</button>
     </div>
@@ -602,21 +613,23 @@
     <button id="topBtn">
         <i class="fas fa-arrow-up"></i>
     </button>
-    <script type="text/javascript" src="../../JS/Template/scrolltopbtn.js"></script>
-    
 
-    <script type="text/javascript">
-        function toggle_popup() {
-            var blur = document.getElementById('blur')
-            blur.classList.toggle('active')
-            var popup = document.getElementById('popup')
-            popup.classList.toggle('active')
-        }
-    </script>
+
 
 
 
 </body>
+
+<!-- script in html -->
+<script type="text/javascript" src="../../JS/Template/scrolltopbtn.js"></script>
+<script type="text/javascript">
+    function toggle_popup() {
+        var blur = document.getElementById('blur')
+        blur.classList.toggle('active')
+        var popup = document.getElementById('popup')
+        popup.classList.toggle('active')
+    }
+</script>
 <!-- swipper js -->
 <script src="../../JS/Template/carousel/swiper-bundle.min.js"></script>
 <script src="../../JS/Template/carousel/carousel.js"></script>

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 500) {
+        if ($(this).scrollTop() > 300) {
             $('#topBtn').fadeIn();
         } else {
             $('#topBtn').fadeOut();

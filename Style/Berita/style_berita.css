@@ -176,9 +176,9 @@
 
 .pagination{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 14vh;
+    align-items: center;
+    height: fit-content;
     max-height: 15vh;
     width: 100%;
     /* padding: 5px; */
@@ -186,10 +186,11 @@
     /* background-color: aqua; */
 }
 .pagination ul{
-    /* border: solid black; */
+    /* border: solid blue; */
     display: flex;
     justify-content: center;
-    width: 100%;
+    /* align-items: center; */
+    width: 90%;
     /* max-width: 100%; */
     max-height: fit-content;
     background-color: #fff;
@@ -198,18 +199,19 @@
 }
 .pagination ul li{
     color: #03848F;
+    /* border: solid black; */
     /* color: #00000061; */
     list-style: none;
     line-height: 45px;
     text-align: center;
     font-size: 16px;
-    font-weight: 500;
+    /* font-weight: 500; */
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .pagination ul li.numb{
     border-radius: 50%;
-    margin: 0 7px;
+    margin: 0 3px;
     height: 45px;
     width: 20px;
     max-width: 20px;

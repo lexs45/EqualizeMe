@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hi blog</h1>
+    <h1>hi ini halaman tes</h1>
 </body>
 </html>

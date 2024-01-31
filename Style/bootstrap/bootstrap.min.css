@@ -4547,6 +4547,7 @@ fieldset:disabled .btn {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    /* z-index: 99; */
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)
 }
 
@@ -4559,6 +4560,7 @@ fieldset:disabled .btn {
 .navbar>.container-xxl {
     display: flex;
     flex-wrap: inherit;
+    /* z-index: 99; */
     align-items: center;
     justify-content: space-between
 }

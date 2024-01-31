@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Berita</title>
+    <title>Edukasi</title>
 
     <!-- bootstrap -->
     <link href="../../Style/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -17,10 +17,12 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <!-- Wrapper -->
+    <!-- pencarian -->
     <link rel="stylesheet" href="../../Style/Berita/wrapper.css">
-    <link rel="stylesheet" href="../../Style/Berita/style_berita.css">
 
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../Style/Edu/style_edu.css">
 
     <style>
         * {
@@ -36,7 +38,6 @@
 </head>
 
 <body>
-
     <!-- Pencarian -->
     <div class="container-wrapper"
         style="box-sizing: border-box; border: 1px solid rgba(12, 9, 9, 0.468); margin-bottom: 2vh;">
@@ -50,95 +51,150 @@
         </div>
     </div>
 
-    <!-- statistik -->
-    <div class="container-statistik">
-        <div class="banner-h3">
-            <h3>Statistik Presentase Pelecehan Seksual</h3>
-        </div>
-        <div class="underlined-content">
-            <div class="garis-bawah"></div>
-        </div>
-        <div class="banner-img-statistik">
-            <img src="../../Image/412503.jpg" alt="">
+
+
+    <!-- content edu -->
+    <div class="container-edu">
+        <div class="content-edu">
+            <a href="#"  onclick="toggle_popup()">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#"  onclick="toggle_popup()">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/logo.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="row-edu">
+                    <div class="gambar-content">
+                        <img src="../../Image/412503.jpg" alt="">
+                    </div>
+                    <div class="content-edu-h6">
+                        <h6>Ciri - ciri pelecehan seksual</h6>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
 
-    <!-- content -->
-    <div class="container-content-berita">
-        <div class="h3-berita">
-            <h3>Berita</h3>
-        </div>
-        <div class="content-berita">
-            <a href="#" onclick="toggle_popup()">
-                <div class="beritanya">
-                    <img src="../../Image/412503.jpg" alt="">
-                    <div class="content-h6-berita">
-                        <h6>{{Judul Content Berita}}</h6>
-                    </div>
-                </div>
-            </a>
 
-        </div>
-        <div class="content-berita">
-            <a href="#">
-                <div class="beritanya">
-                    <img src="../../Image/412503.jpg" alt="">
-                    <div class="content-h6-berita">
-                        <h6>{{Judul Content Berita}}</h6>
-                    </div>
-                </div>
-            </a>
 
+    <!-- popup -->
+    <div class="popup" id="popup">
+        <h2>{{Judul Content}}</h2>
+        <img src="../../Image/412503.jpg" alt="">
+        <!-- <iframe src="../../Image/412503.jpg" ></iframe> -->
+        <!-- <video src="../../Image/tes.mp4"></video> -->
+        <div class="content-text-popup">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis itaque asperiores animi unde earum
+                voluptates incidunt illum dolor error, enim beatae atque voluptatem repellendus ad doloribus ex tempora,
+                voluptas quos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente aut minus distinctio,
+                ducimus asperiores, optio voluptatibus delectus ipsum omnis autem mollitia numquam! Repudiandae
+                voluptates perspiciatis, cumque animi non quod dolor. Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Iure, quidem rem. Recusandae ab corrupti illo qui incidunt. Perferendis, iste
+                voluptate. Incidunt at, alias id dolorum inventore, velit cumque exercitationem quaerat eius porro
+                perspiciatis quas delectus. Eos et officia, sunt fugit quasi, magni ut quae commodi tenetur dolor maxime
+                sint illo totam quibusdam non vero, quis facere doloremque sed! Facere beatae enim quam dolorum modi
+                perferendis quia optio! Mollitia placeat error adipisci deleniti consectetur quidem sint, neque totam
+                aut alias eligendi minus reiciendis quibusdam sed soluta ducimus obcaecati sequi? Voluptas reiciendis
+                eum deleniti magnam ipsam eligendi maiores quaerat repudiandae ex quidem.</p>
         </div>
-        <div class="content-berita">
-            <a href="#">
-                <div class="beritanya">
-                    <img src="../../Image/412503.jpg" alt="">
-                    <div class="content-h6-berita">
-                        <h6>{{Judul Content Berita}}</h6>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-        <div class="content-berita">
-            <a href="#">
-                <div class="beritanya">
-                    <img src="../../Image/412503.jpg" alt="">
-                    <div class="content-h6-berita">
-                        <h6>{{Judul Content Berita}}</h6>
-                    </div>
-                </div>
-            </a>
-
-        </div>
+            <button class="button-selengkapnya" onclick="toggle_popup()">Kembali</button>
+    
+            
+        <a href="#">
+        <button class="button-quiz">Quiz</button>
+        </a>
     </div>
 
 
-
-    <!-- pagination -->
-    <div class="container-pagination-luar">
-        <div class="pagination">
-            <ul>
-                <!-- <li class="btn prev"><span><i class="fas fa-angle-left"></i> Prev</span></li>
-                        <li class="numb active"><span>1</span></li>
-                        <li class="numb"><span>2</span></li>
-                        <li class="dots"><span>...</span></li>
-                        <li class="numb"><span>4</span></li>
-                        <li class="numb"><span>5</span></li>
-                        <li class="dots"><span>...</span></li>
-                        <li class="numb"><span>7</span></li>
-                        <li class="btn next"><span>Next <i class="fas fa-angle-right"></i></span></li> -->
-            </ul>
-        </div>
-    </div>
-
-
-    <!-- Navbar -->
+    <!-- Navbar Bawah -->
     <nav class="navbar navbar-expand navbar-dark bg-primary text-white fixed-bottom">
         <ul class="navbar-nav nav-justified w-100 ">
             <li class="nav-item">
-                <a href="../../HTML/Project-HTML/Beranda.html" class="nav-link">
+                <a href="#" class="nav-link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-house" viewBox="0 0 16 16" alt="Beranda">
                         <path
@@ -148,7 +204,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="../../HTML/Project-HTML/Berita.html" class="nav-link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-newspaper" viewBox="0 0 16 16" alt="Berita">
                         <path
@@ -171,7 +227,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a href="../Project-HTML/Edu.html" class="nav-link">
+                <a href="#" class="nav-link active">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-book" viewBox="0 0 16 16" alt="Edukasi">
                         <path
@@ -195,49 +251,14 @@
         </ul>
     </nav>
 
-
-
-
-
-
-
-    <script type="text/javascript" src="../../JS/Template/scrolltopbtn.js"></script>
-
-    <!-- popup berita -->
-
-    <div class="popup" id="popup">
-        <!-- mentok lorem 10 -->
-        <h2>{{Judul Content}}</h2>
-        <div class="content-popup-img">
-            <img src="../../Image/412503.jpg" alt="">
-        </div>
-        <div class="content-text-popup">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis itaque asperiores animi unde earum
-                voluptates incidunt illum dolor error, enim beatae atque voluptatem repellendus ad doloribus ex tempora,
-                voluptas quos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente aut minus distinctio,
-                ducimus asperiores, optio voluptatibus delectus ipsum omnis autem mollitia numquam! Repudiandae
-                voluptates perspiciatis, cumque animi non quod dolor. Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Iure, quidem rem. Recusandae ab corrupti illo qui incidunt. Perferendis, iste
-                voluptate. Incidunt at, alias id dolorum inventore, velit cumque exercitationem quaerat eius porro
-                perspiciatis quas delectus. Eos et officia, sunt fugit quasi, magni ut quae commodi tenetur dolor maxime
-                sint illo totam quibusdam non vero, quis facere doloremque sed! Facere beatae enim quam dolorum modi
-                perferendis quia optio! Mollitia placeat error adipisci deleniti consectetur quidem sint, neque totam
-                aut alias eligendi minus reiciendis quibusdam sed soluta ducimus obcaecati sequi? Voluptas reiciendis
-                eum deleniti magnam ipsam eligendi maiores quaerat repudiandae ex quidem.</p>
-        </div>
-        <button class="button-selengkapnya" onclick="toggle_popup()">Kembali</button>
-    </div>
-
-
     <script type="text/javascript">
         function toggle_popup() {
             var popup = document.getElementById('popup')
             popup.classList.toggle('active')
         }
     </script>
-    <!-- <i class="fa-light fa-arrow-right"></i> -->
-
 </body>
-<script src="../../JS/Template/pagination.js"></script>
+<!-- script in html -->
+<!-- <script type="text/javascript" src="../../JS/Template/scrolltopbtn.js"></script> -->
 
 </html>

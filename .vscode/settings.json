@@ -4,7 +4,7 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "SynthWave '84",
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
     "editor.fontSize": 12,
     "files.autoSave": "afterDelay",

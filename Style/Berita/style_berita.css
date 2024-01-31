@@ -37,6 +37,7 @@
 .banner-img-statistik img{
     width: 90%;
     border-radius: 10px;
+    /* border: solid red; */
 }
 
 /* .overlay{
@@ -87,6 +88,7 @@
     /* border-top: 0.5px solid black; */
     border-bottom: 0.5px solid grey;
     max-height: 23vh;
+    height: 23vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -130,7 +132,7 @@
 .beritanya img{
     /* border: solid red; */
     width: 50%;
-    height: 20vh;
+    height: 15vh;
     border-radius: 5%;
 }
 
@@ -259,3 +261,92 @@
     /* background-color: ; */
     
 }
+
+
+/* popup */
+#popup button{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #03848F;
+    border-radius: 8px;
+}
+.content-popup-img{
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+.popup img, .popup iframe, .popup video{
+    width: 70%;
+    /* margin-bottom: 5%; */
+    border-radius: 2%;
+    /* border: solid blue; */
+}
+.popup h2{
+    margin-bottom: 5%;
+    /* border: solid black; */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.content-text-popup{
+    border: .5px solid grey;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 2%;
+    /* max-height: 40vh; */
+    color: #111;
+    overflow: auto;
+}
+.popup h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.popup p{
+    /* border: solid grey; */
+    font-size: 15px;
+    color: #111;
+    text-align: justify;
+}
+#popup{
+    position: fixed;
+    overflow: auto;
+
+    /* top: 100; */
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    z-index: 999;
+    /* left: 0;
+    right: 0;
+    bottom: auto;
+    top: 1%; */
+    transform: translate(-50%,50%);
+    width: 100%;
+    padding: 25px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    /* border: solid red; */
+}
+#popup.active{
+    z-index: 999;
+    border-radius: 5% 5% 0 0;
+    bottom: 49.5%;
+    height: 100vh;
+    /* max-height:90vh; */
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    overflow: auto;
+}
+/* end of popup */
